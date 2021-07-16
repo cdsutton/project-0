@@ -9,6 +9,9 @@
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
+  		<sonar.projectKey>cdsutton_project-0</sonar.projectKey>
+  		<sonar.organization>cdsutton</sonar.organization>
+  		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 
 	<build>
@@ -26,7 +29,7 @@
 							<archive>
 								<manifest>
 									<mainClass>
-										com.revature.app.Application
+										com.revature.main.MainACB
 									</mainClass>
 								</manifest>
 							</archive>
